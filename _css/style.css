@@ -124,3 +124,22 @@ nav ul li a:hover {
     margin-right: 950px;
     padding: 10px;
 }
+input[type="submit"]{
+    border: var(--cor-primaria) 1px solid;
+    background-color: var(--cor-primaria);
+    border-radius: 2px;
+    padding: 6px;
+    color: var(--cor-secundaria);
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover{
+    background-color: var(--cor-primaria);
+     transform: scale(1.01);
+    transition: transform 0.3s ease-in-out;
+}
+input[type="submit"]:hover{
+    color: #000000;
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out;
+}
